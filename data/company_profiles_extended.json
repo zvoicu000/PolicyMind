@@ -1,0 +1,1755 @@
+[
+  {
+    "name": "SAP",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for SAP auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Siemens Digital Industries",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Siemens Digital Industries auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Ericsson",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Ericsson auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Nokia",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Nokia auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Spotify",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Spotify auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Klarna",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "FinTech"
+    ],
+    "description": "Placeholder profile for Klarna auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Revolut",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "FinTech"
+    ],
+    "description": "Placeholder profile for Revolut auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Adyen",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Adyen auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Capgemini",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Capgemini auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Atos",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Atos auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Dassault Systemes",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Dassault Systemes auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Infineon Technologies",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "FinTech"
+    ],
+    "description": "Placeholder profile for Infineon Technologies auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Arm Holdings",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Arm Holdings auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Booking Holdings EU",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Booking Holdings EU auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Zalando",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "ECommerce"
+    ],
+    "description": "Placeholder profile for Zalando auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "HelloFresh",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for HelloFresh auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Delivery Hero",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Delivery Hero auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Wise (TransferWise)",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "FinTech"
+    ],
+    "description": "Placeholder profile for Wise (TransferWise) auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Ubisoft",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Ubisoft auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Bitdefender",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "Cybersecurity"
+    ],
+    "description": "Placeholder profile for Bitdefender auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Avast",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "Cybersecurity"
+    ],
+    "description": "Placeholder profile for Avast auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "OVHcloud",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "Privacy"
+    ],
+    "description": "Placeholder profile for OVHcloud auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Elastic NV",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Elastic NV auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Mambu",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "FinTech"
+    ],
+    "description": "Placeholder profile for Mambu auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "SumUp",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for SumUp auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "TeamViewer",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for TeamViewer auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Darktrace",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "Cybersecurity"
+    ],
+    "description": "Placeholder profile for Darktrace auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Ledger",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Ledger auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "bunq",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for bunq auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Schibsted",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Schibsted auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Bolt Technology",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Bolt Technology auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Wolt",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Wolt auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Personio",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Personio auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Celonis",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Celonis auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Typeform",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Typeform auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Spendesk",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Spendesk auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Back Market",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "ECommerce"
+    ],
+    "description": "Placeholder profile for Back Market auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Deezer",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Deezer auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Infobip",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Infobip auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Unity Technologies Europe",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Unity Technologies Europe auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "SAP Concur EU",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for SAP Concur EU auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Payhawk",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "FinTech"
+    ],
+    "description": "Placeholder profile for Payhawk auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Doctolib",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Doctolib auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Babylon Health EU",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Babylon Health EU auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "GetResponse",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for GetResponse auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Sendinblue",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Sendinblue auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "OVO Energy Tech",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for OVO Energy Tech auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Tidal",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Tidal auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "N26",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for N26 auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Monzo EU Ops",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Monzo EU Ops auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Starling Bank EU Ops",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "FinTech"
+    ],
+    "description": "Placeholder profile for Starling Bank EU Ops auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Wise Platform",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "Privacy",
+      "FinTech"
+    ],
+    "description": "Placeholder profile for Wise Platform auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Rapyd EU",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Rapyd EU auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "iZettle (PayPal Zettle)",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "FinTech"
+    ],
+    "description": "Placeholder profile for iZettle (PayPal Zettle) auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Trustpilot",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "Cybersecurity"
+    ],
+    "description": "Placeholder profile for Trustpilot auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Acronis",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Acronis auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Nord Security",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "Cybersecurity"
+    ],
+    "description": "Placeholder profile for Nord Security auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "DeepMind Europe",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "AIRegulation"
+    ],
+    "description": "Placeholder profile for DeepMind Europe auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Graphcore",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "AIRegulation"
+    ],
+    "description": "Placeholder profile for Graphcore auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "WeTransfer",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for WeTransfer auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "TomTom",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for TomTom auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Mirakl",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Mirakl auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Criteo",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Criteo auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "PrestaShop",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "ECommerce"
+    ],
+    "description": "Placeholder profile for PrestaShop auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Qonto",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Qonto auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Ledger Enterprise Solutions",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Ledger Enterprise Solutions auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Sorare",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Sorare auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Vinted",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Vinted auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Mollie",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "FinTech"
+    ],
+    "description": "Placeholder profile for Mollie auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "MessageBird",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for MessageBird auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "GitLab Europe Ops",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for GitLab Europe Ops auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "JetBrains (EU)",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "AIRegulation"
+    ],
+    "description": "Placeholder profile for JetBrains (EU) auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "SUSE",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for SUSE auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Canonical",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Canonical auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Elastic Path EU",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Elastic Path EU auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Kubernetes EU Foundation (placeholder)",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Kubernetes EU Foundation (placeholder) auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Skyscanner",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Skyscanner auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Peak AI",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "AIRegulation"
+    ],
+    "description": "Placeholder profile for Peak AI auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Onfido",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Onfido auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Tractable",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "AIRegulation"
+    ],
+    "description": "Placeholder profile for Tractable auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Sennder",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Sennder auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Glovo Tech",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Glovo Tech auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Farfetch Tech",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "ECommerce"
+    ],
+    "description": "Placeholder profile for Farfetch Tech auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "eDreams ODIGEO",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for eDreams ODIGEO auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "OVHcloud SecOps",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "Privacy"
+    ],
+    "description": "Placeholder profile for OVHcloud SecOps auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "AliasLab",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for AliasLab auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Paddle",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Paddle auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "LoopMe",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for LoopMe auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Dynatrace EU",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Dynatrace EU auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Thought Machine EU",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Thought Machine EU auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "ContentSquare",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for ContentSquare auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Dataiku EU",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "Privacy",
+      "AIRegulation"
+    ],
+    "description": "Placeholder profile for Dataiku EU auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Algolia EU",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Algolia EU auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Redis Labs Europe",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Redis Labs Europe auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Tanium EU",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Tanium EU auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "OneTrust EU",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "Cybersecurity"
+    ],
+    "description": "Placeholder profile for OneTrust EU auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Snyk EU",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Snyk EU auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "OutSystems EU",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for OutSystems EU auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "UiPath Europe",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for UiPath Europe auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "FreshBooks EU Ops",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for FreshBooks EU Ops auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Smartsheet EU Ops",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Smartsheet EU Ops auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "Workday EU Ops",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for Workday EU Ops auto-generated; please refine domains and data categories."
+  },
+  {
+    "name": "ServiceNow Europe Ops",
+    "jurisdictions": [
+      "EU"
+    ],
+    "industry": [
+      "Technology"
+    ],
+    "data_categories": [
+      "PII",
+      "UsageMetrics"
+    ],
+    "domains": [
+      "GeneralTech"
+    ],
+    "description": "Placeholder profile for ServiceNow Europe Ops auto-generated; please refine domains and data categories."
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "domains": {
+    "Privacy": {
+      "keywords": ["privacy", "personal data", "gdpr", "data protection", "pii"],
+      "departments": ["Legal", "Data Governance", "Security"]
+    },
+    "Cybersecurity": {
+      "keywords": ["cybersecurity", "security", "encryption", "incident", "vulnerability", "breach"],
+      "departments": ["Security", "Engineering", "IT"]
+    },
+    "Employment": {
+      "keywords": ["employee", "labor", "workplace", "overtime", "hr"],
+      "departments": ["HR", "Operations"]
+    },
+    "FinancialCompliance": {
+      "keywords": ["bank", "financial", "aml", "fintech", "reporting"],
+      "departments": ["Compliance", "Finance"]
+    },
+    "AntiFraud": {
+      "keywords": ["fraud", "suspicious", "reporting", "anti-money"]
+    },
+    "HealthCompliance": {
+      "keywords": ["health", "medical", "patient", "clinical", "hipaa"],
+      "departments": ["Clinical", "Compliance", "Security"]
+    },
+    "AIRegulation": {
+      "keywords": ["ai", "algorithm", "automated decision", "model", "transparency"],
+      "departments": ["ML", "Product", "Compliance"]
+    }
+  }
+}

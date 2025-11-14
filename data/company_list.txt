@@ -1,0 +1,103 @@
+SAP
+Siemens Digital Industries
+Ericsson
+Nokia
+Spotify
+Klarna
+Revolut
+Adyen
+Capgemini
+Atos
+Dassault Systemes
+Infineon Technologies
+Arm Holdings
+Booking Holdings EU
+Zalando
+HelloFresh
+Delivery Hero
+Wise (TransferWise)
+Ubisoft
+Bitdefender
+Avast
+OVHcloud
+Elastic NV
+Mambu
+SumUp
+TeamViewer
+Darktrace
+Ledger
+bunq
+Schibsted
+Bolt Technology
+Wolt
+Personio
+Celonis
+Typeform
+Spendesk
+Back Market
+Deezer
+Infobip
+Unity Technologies Europe
+SAP Concur EU
+Payhawk
+Doctolib
+Babylon Health EU
+GetResponse
+Sendinblue
+OVO Energy Tech
+Tidal
+N26
+Monzo EU Ops
+Starling Bank EU Ops
+Wise Platform
+Rapyd EU
+iZettle (PayPal Zettle)
+Trustpilot
+Acronis
+Nord Security
+DeepMind Europe
+Graphcore
+WeTransfer
+TomTom
+Mirakl
+Criteo
+PrestaShop
+Qonto
+Ledger Enterprise Solutions
+Sorare
+Vinted
+Mollie
+MessageBird
+GitLab Europe Ops
+JetBrains (EU)
+SUSE
+Canonical
+Elastic Path EU
+Kubernetes EU Foundation (placeholder)
+Skyscanner
+Peak AI
+Onfido
+Tractable
+Sennder
+Glovo Tech
+Farfetch Tech
+eDreams ODIGEO
+OVHcloud SecOps
+AliasLab
+Paddle
+LoopMe
+Dynatrace EU
+Thought Machine EU
+ContentSquare
+Dataiku EU
+Algolia EU
+Redis Labs Europe
+Tanium EU
+OneTrust EU
+Snyk EU
+OutSystems EU
+UiPath Europe
+FreshBooks EU Ops
+Smartsheet EU Ops
+Workday EU Ops
+ServiceNow Europe Ops

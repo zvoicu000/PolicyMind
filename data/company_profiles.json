@@ -1,0 +1,26 @@
+[
+  {
+    "name": "AcmeCloud",
+    "jurisdictions": ["US", "EU"],
+    "industry": ["Cloud", "SaaS"],
+    "data_categories": ["PII", "Payment", "Logs"],
+    "domains": ["Privacy", "Cybersecurity", "Employment"],
+    "description": "Mid-size cloud SaaS handling end-user PII and payment metadata for SMEs."
+  },
+  {
+    "name": "FinDataCorp",
+    "jurisdictions": ["US"],
+    "industry": ["FinTech"],
+    "data_categories": ["Financial", "PII", "FraudSignals"],
+    "domains": ["Privacy", "FinancialCompliance", "AntiFraud"],
+    "description": "US fintech providing analytics on transactional data for community banks."
+  },
+  {
+    "name": "HealthAI EU",
+    "jurisdictions": ["EU"],
+    "industry": ["HealthTech", "AI"],
+    "data_categories": ["Health", "PII", "ModelTelemetry"],
+    "domains": ["Privacy", "HealthCompliance", "AIRegulation"],
+    "description": "European AI health startup processing patient imaging and diagnostics."
+  }
+]
