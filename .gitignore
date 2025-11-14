@@ -1,0 +1,25 @@
+# Minimal ignore list for current Python backend project
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Local environment secrets
+.env
+
+# Tool caches
+.mypy_cache/
+.pytest_cache/
+
+# Editor / OS files
+.DS_Store
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
