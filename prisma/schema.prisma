@@ -40,6 +40,7 @@ model Company {
 
   createdBy          User             @relation("CompanyCreatedBy", fields: [createdByUserId], references: [id])
   members            CompanyMember[]
+  insights           RegulationInsight[]
 }
 
 model CompanyMember {
@@ -86,4 +87,26 @@ enum SummaryCadence {
   WEEKLY
   BIWEEKLY
   MONTHLY
+}
+
+model RegulationInsight {
+  id            String        @id @default(cuid())
+  companyId     String
+  title         String
+  summary       String
+  actionItems   Json
+  notifiedTeams Json
+  riskLevel     String
+  status        InsightStatus @default(NEW)
+  archivedAt    DateTime?
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+
+  company Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+}
+
+enum InsightStatus {
+  NEW
+  ASSIGNED
+  DONE
 }

@@ -22,6 +22,10 @@ function validatePayload(payload: Partial<OnboardingProfile>) {
     }
   }
 
+  if (payload.notificationChannel !== "gmail") {
+    return "Notification channel must be gmail.";
+  }
+
   if (!Array.isArray(payload.sectors)) {
     return "Sectors must be an array.";
   }

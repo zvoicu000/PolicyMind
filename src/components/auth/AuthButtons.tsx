@@ -9,13 +9,12 @@ const CTA_CLASSES =
 
 export function LoginButton() {
   const pathname = usePathname();
-  const returnTo =
-    pathname && pathname !== "/login" ? pathname : "/workspace/onboarding";
+  const returnTo = pathname && pathname !== "/login" ? pathname : "/workspace";
 
   return (
     <a
       href={`/auth/login?returnTo=${encodeURIComponent(returnTo)}`}
-      className={`${CTA_CLASSES} bg-black text-white hover:bg-neutral-800`}
+      className={`${CTA_CLASSES} border border-white/30 bg-white text-neutral-900 hover:bg-neutral-100`}
     >
       Sign in with Auth0
     </a>
@@ -27,7 +26,7 @@ export function LogoutButton() {
     <Link
       href="/auth/logout"
       prefetch={false}
-      className={`${CTA_CLASSES} border border-neutral-300 text-neutral-900 hover:bg-neutral-100`}
+      className={`${CTA_CLASSES} border border-red-200 bg-white text-red-600 hover:bg-red-50`}
     >
       Sign out
     </Link>
@@ -43,7 +42,7 @@ export function ProfileSummary() {
 
   if (!user) {
     return (
-      <p className="text-sm text-neutral-600">
+      <p className="text-sm text-white">
         Use your corporate Auth0 account to access PolicyMind.
       </p>
     );

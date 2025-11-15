@@ -47,9 +47,10 @@ const defaultDraft: DraftProfile = {
     area: area.label,
     maturity: "draft",
     ownerTeam: "",
+    ownerContact: "",
   })),
   riskStance: "balanced",
-  notificationChannel: "slack",
+  notificationChannel: "gmail",
   summaryFocus: "weekly",
 };
 
@@ -159,6 +160,16 @@ function PolicyStep({ data, onChange }: StepProps) {
               className="rounded-lg border border-neutral-300 px-3 py-2 text-sm text-neutral-900 placeholder:text-neutral-400"
             />
           </label>
+          <label className="mt-3 flex flex-col gap-1 text-xs font-medium text-neutral-600">
+            Owner email
+            <input
+              type="email"
+              value={snapshot.ownerContact}
+              onChange={(event) => updateSnapshot(index, { ownerContact: event.target.value })}
+              placeholder="person@company.com"
+              className="rounded-lg border border-neutral-300 px-3 py-2 text-sm text-neutral-900 placeholder:text-neutral-400"
+            />
+          </label>
         </div>
       ))}
       <div>
@@ -232,17 +243,12 @@ function DeliveryStep({ data, onChange }: StepProps) {
       </div>
       <label className="flex flex-col gap-2 text-sm">
         <span className="font-medium text-neutral-800">Notifications</span>
-        <select
-          value={data.notificationChannel}
-          onChange={(event) =>
-            onChange({ notificationChannel: event.target.value as DraftProfile["notificationChannel"] })
-          }
-          className="rounded-lg border border-neutral-300 px-3 py-2 text-neutral-900"
-        >
-          <option value="slack">Slack</option>
-          <option value="teams">Teams</option>
-          <option value="email">Email</option>
-        </select>
+        <div className="rounded-lg border border-neutral-300 bg-neutral-50 px-3 py-2 text-neutral-700">
+          Gmail (required)
+        </div>
+        <p className="text-xs text-neutral-500">
+          Slack and Teams delivery are paused—connect a Gmail inbox to receive alerts.
+        </p>
       </label>
       <label className="flex flex-col gap-2 text-sm">
         <span className="font-medium text-neutral-800">Summary cadence</span>

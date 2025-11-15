@@ -1,14 +1,21 @@
 import Link from "next/link";
+import { cache } from "react";
 
 import { auth0 } from "@/lib/auth0";
+import { InsightsPanel } from "@/components/workspace/InsightsPanel";
+import { RegulationUploadPanel } from "@/components/workspace/RegulationUploadPanel";
 import { getOnboardingProfile } from "@/lib/onboarding-store";
+
+const loadOnboardingProfile = cache(async (userId: string) => getOnboardingProfile(userId));
 
 export default async function WorkspaceHome() {
   const session = await auth0.getSession();
-  const onboarding = session ? await getOnboardingProfile(session.user.sub) : null;
+  const onboarding = session ? await loadOnboardingProfile(session.user.sub) : null;
 
   const hasProfile = Boolean(onboarding);
-
+  const notificationLabel = onboarding?.notificationChannel === "gmail"
+    ? "Gmail"
+    : onboarding?.notificationChannel ?? "Gmail";
   return (
     <div className="space-y-8">
       <section className="rounded-3xl border border-neutral-200 bg-white p-10 shadow-sm">
@@ -66,33 +73,13 @@ export default async function WorkspaceHome() {
             {hasProfile ? "Connect tasking channels" : "Finish onboarding"}
           </p>
           <p className="text-sm text-neutral-500">
-            {hasProfile ? `Notifications via ${onboarding?.notificationChannel}` : "3 short steps remaining"}
+            {hasProfile ? `Notifications via ${notificationLabel}` : "3 short steps remaining"}
           </p>
         </article>
       </section>
+      {hasProfile ? <InsightsPanel /> : null}
 
-      {hasProfile ? (
-        <section className="rounded-3xl border border-neutral-200 bg-white p-8">
-          <div className="flex items-center justify-between">
-            <div>
-              <p className="text-sm font-semibold uppercase tracking-widest text-neutral-500">
-                Regulatory focus
-              </p>
-              <h2 className="text-2xl font-semibold text-neutral-900">Feeds you are monitoring</h2>
-            </div>
-            <Link href="/workspace/onboarding" className="text-sm font-semibold text-blue-600">
-              Adjust feeds
-            </Link>
-          </div>
-          <ul className="mt-6 grid gap-3 md:grid-cols-2">
-            {onboarding!.regulatorFeeds.map((feed) => (
-              <li key={feed} className="rounded-2xl border border-neutral-200 px-4 py-3 text-sm font-medium text-neutral-800">
-                {feed}
-              </li>
-            ))}
-          </ul>
-        </section>
-      ) : null}
+      {hasProfile ? <RegulationUploadPanel /> : null}
     </div>
   );
 }

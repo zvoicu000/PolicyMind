@@ -33,6 +33,19 @@ The Auth0 middleware (see `src/middleware.ts`) now exposes `/auth/login`, `/auth
 
 Restart `npm run dev` whenever env vars change so the SDK can reload them.
 
+## Email notifications
+
+Notification sends now use Nodemailer. By default the API provisions an Ethereal test inbox automatically, so every send produces a real email plus a preview URL you can open in the browser. Provide SMTP details to deliver messages to your own infrastructure:
+
+| Variable | Description |
+| --- | --- |
+| `SMTP_HOST`, `SMTP_PORT`, `SMTP_SECURE` | Connection details for your SMTP relay. Leave unset to fall back to Ethereal. |
+| `SMTP_USER` / `SMTP_PASS` | Credentials for the SMTP relay. |
+| `MAIL_FROM` | Optional display name/address for the "From" header (defaults to `PolicyMind <no-reply@policymind.test>`). |
+| `NOTIFICATION_RECIPIENTS` | Comma-separated list of recipients for notification emails. If omitted, the authenticated user's email is used. |
+
+Restart the dev server after changing any of the above so the transporter cache resets. During onboarding you can now capture an "Owner email" for each policy area; when an insight lists that area or owner inside "Loop in", the notification API automatically targets the stored address in addition to any global recipients.
+
 ## Development
 
 ```bash
@@ -43,6 +56,8 @@ npm run dev
 Visit `http://localhost:3000` for the public workflow overview and `http://localhost:3000/login` for the Auth0-powered entry point.
 
 Authenticated users can now navigate to `/workspace` for the policy operations cockpit or `/workspace/onboarding` to capture company, policy, and notification preferences. The onboarding wizard persists data via `/api/onboarding`, so every re-login pulls the same configuration back into your dashboard.
+
+Marking a briefing as **Done** automatically moves it into the archive drawer inside the workspace action queue, so you can reference prior uploads without cluttering the active task list.
 
 ## Next steps
 

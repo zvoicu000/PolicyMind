@@ -8,6 +8,7 @@ export interface PolicySnapshot {
   area: string;
   maturity: PolicyMaturity;
   ownerTeam: string;
+  ownerContact: string;
 }
 
 export interface OnboardingProfile {
@@ -18,7 +19,7 @@ export interface OnboardingProfile {
   regulatorFeeds: string[];
   policySnapshots: PolicySnapshot[];
   riskStance: "conservative" | "balanced" | "aggressive";
-  notificationChannel: "slack" | "teams" | "email";
+  notificationChannel: "gmail";
   summaryFocus: "weekly" | "biweekly" | "monthly";
   updatedAt: string;
 }
@@ -36,15 +37,6 @@ const riskMap: Record<OnboardingProfile["riskStance"], $Enums.RiskStance> = {
   aggressive: $Enums.RiskStance.AGGRESSIVE,
 };
 
-const notificationMap: Record<
-  OnboardingProfile["notificationChannel"],
-  $Enums.NotificationChannel
-> = {
-  slack: $Enums.NotificationChannel.SLACK,
-  teams: $Enums.NotificationChannel.TEAMS,
-  email: $Enums.NotificationChannel.EMAIL,
-};
-
 const summaryMap: Record<
   OnboardingProfile["summaryFocus"],
   $Enums.SummaryCadence
@@ -55,8 +47,12 @@ const summaryMap: Record<
 };
 
 const inverseRiskMap = invertRecord(riskMap);
-const inverseNotificationMap = invertRecord(notificationMap);
 const inverseSummaryMap = invertRecord(summaryMap);
+const inverseNotificationMap: Record<$Enums.NotificationChannel, OnboardingProfile["notificationChannel"]> = {
+  [$Enums.NotificationChannel.EMAIL]: "gmail",
+  [$Enums.NotificationChannel.SLACK]: "gmail",
+  [$Enums.NotificationChannel.TEAMS]: "gmail",
+};
 
 export async function saveOnboardingProfile(
   user: SessionUserProfile,
@@ -129,16 +125,29 @@ async function ensureUserRecord(user: SessionUserProfile) {
   });
 }
 
-function buildCompanyPayload(profile: Omit<OnboardingProfile, "updatedAt">) {
+type CompanyProfilePayload = {
+  name: string;
+  hqCountry: string;
+  employeeCountBand: string;
+  sectors: Prisma.InputJsonValue;
+  regulatorFeeds: Prisma.InputJsonValue;
+  policySnapshots: Prisma.InputJsonValue;
+  riskStance: $Enums.RiskStance;
+  notificationChannel: $Enums.NotificationChannel;
+  summaryCadence: $Enums.SummaryCadence;
+  onboardingCompletedAt: Date;
+};
+
+function buildCompanyPayload(profile: Omit<OnboardingProfile, "updatedAt">): CompanyProfilePayload {
   return {
     name: profile.companyName,
     hqCountry: profile.hqCountry,
     employeeCountBand: profile.employeeCount,
-    sectors: profile.sectors as Prisma.JsonValue,
-    regulatorFeeds: profile.regulatorFeeds as Prisma.JsonValue,
-    policySnapshots: profile.policySnapshots as Prisma.JsonValue,
+    sectors: profile.sectors as unknown as Prisma.InputJsonValue,
+    regulatorFeeds: profile.regulatorFeeds as unknown as Prisma.InputJsonValue,
+    policySnapshots: profile.policySnapshots as unknown as Prisma.InputJsonValue,
     riskStance: riskMap[profile.riskStance],
-    notificationChannel: notificationMap[profile.notificationChannel],
+    notificationChannel: $Enums.NotificationChannel.EMAIL,
     summaryCadence: summaryMap[profile.summaryFocus],
     onboardingCompletedAt: new Date(),
   };
@@ -167,7 +176,7 @@ function parseStringArray(value: Prisma.JsonValue) {
   return value.filter((entry): entry is string => typeof entry === "string");
 }
 
-function parsePolicySnapshots(value: Prisma.JsonValue) {
+export function parsePolicySnapshots(value: Prisma.JsonValue) {
   if (!Array.isArray(value)) {
     return [] as PolicySnapshot[];
   }
@@ -187,6 +196,7 @@ function parsePolicySnapshots(value: Prisma.JsonValue) {
         area: candidate.area,
         maturity: candidate.maturity as PolicyMaturity,
         ownerTeam: candidate.ownerTeam,
+        ownerContact: typeof candidate.ownerContact === "string" ? candidate.ownerContact : "",
       });
     }
 

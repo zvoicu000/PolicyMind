@@ -34,7 +34,10 @@ async function WorkspaceLayout({ children }: WorkspaceLayoutProps) {
             <Link href="/workspace/onboarding" className="hover:text-neutral-900">
               Onboarding
             </Link>
-            <Link href="/auth/logout" className="text-neutral-400 hover:text-neutral-900">
+            <Link
+              href="/auth/logout"
+              className="rounded-full border border-red-200 bg-red-50 px-4 py-1.5 text-red-600 transition hover:bg-red-100"
+            >
               Sign out
             </Link>
           </nav>
