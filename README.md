@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## PolicyMind
 
-## Getting Started
+PolicyMind is a Next.js (App Router) prototype for an end-to-end EU regulatory intelligence platform. The current milestone focuses on secure Auth0 login plus a product overview derived from the eight workflow pillars:
 
-First, run the development server:
+1. Source & ingest regulatory data (EUR-Lex, Commission, sector feeds).
+2. Parse updates with NLP to extract obligations and impact areas.
+3. Map updates to internal policies and control owners.
+4. Generate actionable recommendations, templates, and checklists.
+5. Create and track tasks, notifications, and approvals.
+6. Maintain audit trails and exportable compliance reports.
+7. Customize by member state, industry, and internal filters.
+8. Continuously learn from user feedback to tune relevance.
+
+## Auth0 configuration
+
+1. Create a **Regular Web Application** in the Auth0 dashboard.
+2. Set the allowed callback/logout URLs to `http://localhost:3000/auth/callback` and `http://localhost:3000`.
+3. Duplicate `.env.example` → `.env.local` and add your tenant values:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+cp .env.example .env.local
+# edit the file with your Auth0 tenant details
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+| Variable | Description |
+| --- | --- |
+| `AUTH0_SECRET` | Random 32+ char string used to encrypt cookies. |
+| `APP_BASE_URL` | The origin serving the app (default `http://localhost:3000`). |
+| `AUTH0_DOMAIN` | Your Auth0 tenant domain, e.g. `demo.eu.auth0.com`. |
+| `AUTH0_CLIENT_ID` / `AUTH0_CLIENT_SECRET` | Credentials from the Auth0 application. |
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The Auth0 middleware (see `src/middleware.ts`) now exposes `/auth/login`, `/auth/logout`, and `/auth/callback`, so UI links should target those paths instead of the legacy `/api/auth/*` endpoints.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Restart `npm run dev` whenever env vars change so the SDK can reload them.
 
-## Learn More
+## Development
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm install
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Visit `http://localhost:3000` for the public workflow overview and `http://localhost:3000/login` for the Auth0-powered entry point.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Authenticated users can now navigate to `/workspace` for the policy operations cockpit or `/workspace/onboarding` to capture company, policy, and notification preferences. The onboarding wizard persists data via `/api/onboarding`, so every re-login pulls the same configuration back into your dashboard.
 
-## Deploy on Vercel
+## Next steps
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Gate additional routes (dashboards, policy library) with `withPageAuthRequired`.
+- Add ingestion connectors (EUR-Lex API, EC RSS, sector webhooks) and persistence.
+- Introduce task orchestration plus notification transports (Slack/Teams/email).
+- Expand audit/reporting exports and feedback-driven ranking for recommendations.
